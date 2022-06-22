@@ -1,0 +1,23 @@
+.outer-image {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.inner-image {
+    background-color: whitesmoke;
+    text-align: center;
+    margin: 5px;
+    padding: 15px;
+    width: 200px;
+    float: left;
+}
+.image-h1{
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: grey;
+}
+.image-p{
+    text-align: justify;
+    font-family: cursive;
+}
