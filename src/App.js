@@ -1,4 +1,6 @@
 import './App.css';
+import Arraystate from './components/Hooks/Usestate/Arraystate';
+import Counter from './components/Hooks/Usestate/Counter';
 // import List from './components/List';
 // import Data from './components/Data';
 // import Table from './components/Table';
@@ -7,7 +9,7 @@ import './App.css';
 // import Image from './components/Imagecontent';
 // import Country from './components/Country';
 // import Calculator from './components/Calculator';
-import Carddetail from './components/Carddetail';
+// import Carddetail from './components/Carddetail';
 // import Darkmode from './components/Darkmode';
 // import Count from './components/Count';
 
@@ -22,9 +24,11 @@ function App() {
             {/* <Image /> */}
             {/* <Country /> */}
             {/* <Calculator /> */}
-            <Carddetail />
+            {/* <Carddetail /> */}
             {/* <Darkmode /> */}
             {/* <Count /> */}
+            <Counter />
+            <Arraystate />
         </>
     )
 }
