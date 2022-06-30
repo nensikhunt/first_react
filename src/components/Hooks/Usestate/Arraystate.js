@@ -1,11 +1,13 @@
 import { useState } from "react";
 
 function Arraystate() {
-    const [items,setitems]=useState([])
-    const addItem=()=>{
+    const [items,setitems]=useState([]);
+    const [id,setid]=useState(0);
+    const addItem=(e)=>{
+        setid(id+1);
         setitems([
             ...items,
-            Math.floor(Math.random()*100)
+            {id:id,number:Math.floor(Math.random()*100)}
         ])
     }
     return ( 
@@ -14,11 +16,11 @@ function Arraystate() {
             {
                 items.map((value,index)=>{
                     return (
-                        <span key={index}>{value}{"\t"}</span>
+                        <span key={index}>{value.id}:{value.number}{"\t"}</span>
                     )
                 })
             }
-             <br /><button onClick={addItem}>add item</button>
+            <br /><button onClick={addItem}>add item</button>
         </>
      );
 }

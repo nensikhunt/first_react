@@ -1,6 +1,7 @@
 import './App.css';
 import Arraystate from './components/Hooks/Usestate/Arraystate';
 import Counter from './components/Hooks/Usestate/Counter';
+import Newarraystate from './components/Hooks/Usestate/Newarraystate';
 // import List from './components/List';
 // import Data from './components/Data';
 // import Table from './components/Table';
@@ -29,6 +30,7 @@ function App() {
             {/* <Count /> */}
             <Counter />
             <Arraystate />
+            <Newarraystate />
         </>
     )
 }
