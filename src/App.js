@@ -1,7 +1,12 @@
 import './App.css';
-import Arraystate from './components/Hooks/Usestate/Arraystate';
-import Counter from './components/Hooks/Usestate/Counter';
-import Newarraystate from './components/Hooks/Usestate/Newarraystate';
+import Parent from './components/Hooks/Usecontext/Parent';
+// import Interval from './components/Hooks/Useeffect/Interval';
+// import Mouseeffect from './components/Hooks/Useeffect/Mouseeffect';
+// import Storage from './components/Hooks/Useeffect/Storage';
+// import Unmount from './components/Hooks/Useeffect/Unmount';
+// import Arraystate from './components/Hooks/Usestate/Arraystate';
+// import Counter from './components/Hooks/Usestate/Counter';
+// import Newarraystate from './components/Hooks/Usestate/Newarraystate';
 // import List from './components/List';
 // import Data from './components/Data';
 // import Table from './components/Table';
@@ -28,9 +33,14 @@ function App() {
             {/* <Carddetail /> */}
             {/* <Darkmode /> */}
             {/* <Count /> */}
-            <Counter />
-            <Arraystate />
-            <Newarraystate />
+            {/* <Counter /> */}
+            {/* <Arraystate /> */}
+            {/* <Newarraystate /> */}
+            {/* <Mouseeffect /> */}
+            {/* <Storage /> */}
+            {/* <Unmount /> */}
+            {/* <Interval /> */}
+            <Parent />
         </>
     )
 }
