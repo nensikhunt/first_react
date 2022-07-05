@@ -1,5 +1,11 @@
 import './App.css';
-import Parent from './components/Hooks/Usecontext/Parent';
+// import { Customhook } from './components/Hooks/Customhook/Customhook';
+import { Countreducer } from './components/Hooks/Reducer/Countreducer';
+// import Usereducer from './components/Hooks/Reducer/Usereducer';
+// import UseMemo from './components/Hooks/Usememo/Usememo';
+// import Stopwatch from './components/Hooks/Useeffect/Stopwatch';
+// import Useref from './components/Hooks/Useref/Useref';
+// import Parent from './components/Hooks/Usecontext/Parent';
 // import Interval from './components/Hooks/Useeffect/Interval';
 // import Mouseeffect from './components/Hooks/Useeffect/Mouseeffect';
 // import Storage from './components/Hooks/Useeffect/Storage';
@@ -40,7 +46,13 @@ function App() {
             {/* <Storage /> */}
             {/* <Unmount /> */}
             {/* <Interval /> */}
-            <Parent />
+            {/* <Parent /> */}
+            {/* <Stopwatch /> */}
+            {/* <Useref /> */}
+            {/* <Usereducer /> */}
+            {/* <UseMemo /> */}
+            {/* <Customhook /> */}
+            <Countreducer />
         </>
     )
 }
